@@ -10,7 +10,7 @@ import Player from "./components/player/Player";
 ReactDOM.render(
   <React.StrictMode>
     <App/>
-    {/* <Player/> */}
+    <Player/>
   </React.StrictMode>,
   document.getElementById("root")
 );

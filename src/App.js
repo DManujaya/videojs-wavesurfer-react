@@ -158,7 +158,6 @@ class App extends Component {
   }
 
   setZoom = (e) => {
-    console.log(this.player);
     this.player.wavesurfer().surfer.zoom(e.currentTarget.value);
     this.setState({ zoomValue: e.currentTarget.value });
   };
